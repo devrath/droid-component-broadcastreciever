@@ -27,4 +27,10 @@
         android:layout_height="wrap_content"
         android:text="@string/receiver_application" />
 
+    <Button
+        android:id="@+id/btnLocalBroadcastId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/local_broadcast" />
+
 </LinearLayout>

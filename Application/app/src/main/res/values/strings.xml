@@ -3,4 +3,6 @@
     <string name="static_broadcast_receiver">Static Broadcast Receiver</string>
     <string name="dynamic_broadcast_receiver">Dynamic Broadcast Receiver</string>
     <string name="receiver_application">Receiver Application</string>
+    <string name="local_broadcast">Local Broadcast</string>
+    <string name="initiate_local_broadcast">Initiate local broadcast</string>
 </resources>

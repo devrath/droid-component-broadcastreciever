@@ -39,6 +39,9 @@
             android:label="@string/dynamic_broadcast_receiver"/>
         <activity android:name=".demos.application_receiver.ApplicationReceiverActivity"
             android:label="@string/receiver_application"/>
+        <activity android:name=".demos.local_broadcast.LocalBroadcastActivity"
+            android:label="@string/local_broadcast"/>
+
 
     </application>
 
