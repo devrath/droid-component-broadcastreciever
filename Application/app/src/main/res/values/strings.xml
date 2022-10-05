@@ -2,4 +2,5 @@
     <string name="app_name">Code</string>
     <string name="static_broadcast_receiver">Static Broadcast Receiver</string>
     <string name="dynamic_broadcast_receiver">Dynamic Broadcast Receiver</string>
+    <string name="receiver_application">Receiver Application</string>
 </resources>

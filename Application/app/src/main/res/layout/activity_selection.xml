@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="@dimen/screen_padding"
     tools:context=".SelectionActivity">
 
     <Button
@@ -19,5 +20,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dynamic_broadcast_receiver" />
+
+    <Button
+        android:id="@+id/btnReceiverAppId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receiver_application" />
 
 </LinearLayout>

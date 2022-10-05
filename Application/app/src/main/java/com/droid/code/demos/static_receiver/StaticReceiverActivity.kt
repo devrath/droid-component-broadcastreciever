@@ -15,7 +15,6 @@ class StaticReceiverActivity : AppCompatActivity() {
         binding = ActivityStaticRecieverBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
     }
 
 }

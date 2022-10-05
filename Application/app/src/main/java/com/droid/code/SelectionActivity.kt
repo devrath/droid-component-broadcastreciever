@@ -23,6 +23,9 @@ class SelectionActivity : AppCompatActivity() {
             btnDynamicReceiverId.setOnClickListener {
                 openActivity(DynamicReceiverActivity::class.java)
             }
+            btnReceiverAppId.setOnClickListener {
+                openActivity(DynamicReceiverActivity::class.java)
+            }
         }
     }
 
