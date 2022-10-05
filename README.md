@@ -3,6 +3,9 @@
 # droid-component-broadcastreciever 🧞‍
 This repository provides samples on how to use android component called broadcast receivers
 
+## **`𝙼𝚎𝚍𝚒𝚞𝚖 𝚊𝚛𝚝𝚒𝚌𝚕𝚎`** 📺
+[_**Android Components: Broadcast Reciever 📣**_](https://medium.com/@devrath.dev595/android-components-broadcast-reciever-766257cac709)
+
 ## **`𝙲𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚎`** 🙋‍♂️
 Read [contribution guidelines](CONTRIBUTING.md) for more information regarding contribution.
 
