@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.droid.code">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -23,8 +25,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".demos.static_receiver.StaticReceiverActivity"/>
-        <activity android:name=".demos.dynamic_receiver.DynamicReceiverActivity"/>
+        <!-- Deprecated in higher versions of android -->
+        <receiver android:name=".demos.static_receiver.reciever.CustomStaticBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Deprecated in higher versions of android -->
+        <activity android:name=".demos.static_receiver.StaticReceiverActivity"
+            android:label="@string/static_broadcast_receiver"/>
+        <activity android:name=".demos.dynamic_receiver.DynamicReceiverActivity"
+            android:label="@string/dynamic_broadcast_receiver"/>
 
     </application>
 
